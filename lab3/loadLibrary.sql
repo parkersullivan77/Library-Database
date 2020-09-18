@@ -1,0 +1,22 @@
+SELECT 'LOADING author' as 'INFO';
+source loadauthor.dump ;
+SELECT 'LOADING publisher' as 'INFO';
+source loadPublisher.dump;
+SELECT 'LOADING book' as 'INFO';
+source loadBook.dump;
+SELECT 'LOADING phone' as 'INFO';
+source loadPhone.dump;
+SELECT 'LOADING member' as 'INFO';
+source loadMember.dump;
+SELECT 'LOADING WrittenBy' as 'INFO';
+source loadWrittenBY.dump
+SELECT 'LOADING pubPhone' as 'INFO';
+source loadpubPhone.dump;
+SELECT 'LOADING authorPhone' as 'INFO';
+source loadauthorPhone.dump;
+SELECT 'LOADING BorrowedBy' as 'INFO';
+source  loadBorrowedBy.dump;
+SELECT 'LOADING libraries' as 'INFO';
+source loadLibraries.dump;
+SELECT 'LOADING LIBRARIES' as 'INFO';
+source loadLibraryBook.dump;

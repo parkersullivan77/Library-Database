@@ -1,0 +1,1 @@
+Number 8 doesnt work because there is no publisher id 90000
